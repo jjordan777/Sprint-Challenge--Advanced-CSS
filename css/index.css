@@ -131,7 +131,6 @@ table {
 }
 html {
   font-size: 62.5%;
- 
 }
 html,
 body {
@@ -212,6 +211,11 @@ p {
   height: auto;
   border-radius: 10px;
 }
+navContainer {
+  width: 100%;
+  padding: 2rem 0 1 0;
+  background-color: #F6F6F6;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -222,3 +226,53 @@ footer {
   justify-content: center;
   align-items: center;
 }
+.navContainer{
+  width: 100%;
+  padding: 2rem 0 1 0;
+  background-color: @nav-bg;
+  }
+  
+  div{
+    .displayFlex (column, center, center);
+    font-family: @nav-font;
+  }
+  
+  nav{
+    display: flex;
+    width: 55%;
+    justify-content:space-around;
+    margin: auto
+  }
+  
+  a{
+    text-decoration:none;
+    font-size:1.5rem;
+    color:@main-font-color;
+    justify-content: space-between;
+    font-weight: bold;
+  }
+  
+  @media @phone{
+    width: 70%;
+  }
+  
+  h1{
+    font-size: 4rem;
+    margin: 0 0 2rem 0;
+    width: 100%;
+    text-align: center;
+
+    @media @phone {
+      font-size: 3.2rem;
+      font-weight: bold;
+    }
+  }
+  
+  @media @phone{
+    padding: 1rem 0 1rem 0;
+  
+  }
+
+  
+        
+  
