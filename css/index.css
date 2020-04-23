@@ -172,8 +172,8 @@ p {
   width: 100%;
 }
 .home .space-images img {
-  width: 28%;
-  margin: 20px 2.5%;
+  width: 30%;
+  margin: 20px 1.5%;
   border-radius: 20px;
   height: 100%;
 }
@@ -193,28 +193,214 @@ p {
   display: flex;
   justify-content: center;
 }
-.home .walk .walk-text {
+.home .walk-text {
   width: 50%;
 }
-.home .walk .walk-text h3 {
+.home h3 {
   margin-bottom: 10px;
 }
-.home .walk .walk-text p {
+.home p {
   margin-bottom: 26px;
 }
-.home .walk .walk-img {
+.home .walk .btn button {
+  color: white;
+  font-size: 1.8rem;
+  background-color: #22283A;
+  border-radius: 5px;
+}
+.home .walk .btn button:hover {
+  background-color: white;
+  color: #22283A;
+}
+.home:hover {
+  background-color: white;
+  color: #22283A;
+}
+.walk-img {
   width: 46%;
   margin-left: 4%;
 }
-.home .walk .walk-img img {
+.walk-img img {
   width: 100%;
   height: auto;
   border-radius: 10px;
 }
-navContainer {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: 'Ubuntu', sans-serif;
+  color: #5E6164;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Russo One', sans-serif;
+  color: #23293B;
+}
+h2 {
+  font-size: 3.2rem;
+}
+h3 {
+  font-size: 2.8rem;
+}
+p {
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
+/*my coding starts*/
+.navigation {
   width: 100%;
+  font-size: 1.6rem;
+  margin: 1.5rem;
   padding: 2rem 0 1 0;
-  background-color: #F6F6F6;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 4rem;
+  padding: 2rem;
+}
+nav {
+  display: flex;
+  width: 45%;
+  justify-content: space-evenly;
+  margin: auto;
+}
+a {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #5E6164;
 }
 footer {
   color: #22283B;
@@ -226,53 +412,3 @@ footer {
   justify-content: center;
   align-items: center;
 }
-.navContainer{
-  width: 100%;
-  padding: 2rem 0 1 0;
-  background-color: @nav-bg;
-  }
-  
-  div{
-    .displayFlex (column, center, center);
-    font-family: @nav-font;
-  }
-  
-  nav{
-    display: flex;
-    width: 55%;
-    justify-content:space-around;
-    margin: auto
-  }
-  
-  a{
-    text-decoration:none;
-    font-size:1.5rem;
-    color:@main-font-color;
-    justify-content: space-between;
-    font-weight: bold;
-  }
-  
-  @media @phone{
-    width: 70%;
-  }
-  
-  h1{
-    font-size: 4rem;
-    margin: 0 0 2rem 0;
-    width: 100%;
-    text-align: center;
-
-    @media @phone {
-      font-size: 3.2rem;
-      font-weight: bold;
-    }
-  }
-  
-  @media @phone{
-    padding: 1rem 0 1rem 0;
-  
-  }
-
-  
-        
-  
